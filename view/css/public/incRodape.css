@@ -1,0 +1,36 @@
+.rodape{
+    background-color: #EE1D23;
+}
+
+.facebook-icon img{
+    width: 65px !important;
+    height: 65px !important;
+    transition: 0.3s;
+}
+.instagram-icon img{
+    width: 70px !important;
+    height: 70px !important;
+    transition: 0.3s;
+}
+
+.facebook-icon img:hover{
+    transform: scale(1.02,1.02);
+    height: 67px !important;
+    transition: 0.3s;
+}
+.instagram-icon img:hover{
+    transform: scale(1.02,1.02);
+    transition: 0.3s;
+}
+
+.barra-rodape{
+    width: 70% !important;
+    height: 1px !important;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    transition: 0.5s;
+}
+
+.social:hover .barra-rodape{
+    width: 80% !important;
+}

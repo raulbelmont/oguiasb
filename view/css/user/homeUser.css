@@ -1,0 +1,28 @@
+.menu-user{
+    background-color: #EE1D23;
+}
+
+.ul-link li a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.ul-link li a:hover{
+    color: #fff;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+}
+
+.btn-logout{
+    background-color: #fff;
+    color: #EE1D23 !important;
+    border-radius: 0.25rem;
+    transition: 0.3s;
+}
+
+.btn-logout:hover{
+    text-shadow: unset !important;
+    background-color: #EE1D23;
+    color: #fff !important;
+    border: 1px solid #fff;
+    transition: 0.3s;
+}

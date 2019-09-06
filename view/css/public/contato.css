@@ -1,0 +1,120 @@
+a{
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none !important;
+}
+
+.titulo{
+    background-image: url("../../img/fundo-categoria.png");
+    background-attachment: fixed;
+}
+
+#msg-sucesso{
+    border: 1px solid #28A74C;
+}
+#msg-erro{
+    border: 1px solid #DC3545;
+}
+.barra-msg{
+    width: 70% !important;
+    height: 1px !important;
+    background-color: #28A74C;
+    border-radius: 0.25rem;
+    transition: 0.5s;
+}
+
+.barra-msg-erro{
+    width: 70% !important;
+    height: 1px !important;
+    background-color: #DC3545;
+    border-radius: 0.25rem;
+    transition: 0.5s;
+}
+
+
+
+.barra{
+    width: 70% !important;
+    height: 1px !important;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    transition: 0.5s;
+}
+
+#logo{
+    color: #EE1D23;
+}
+
+#logo:hover{
+    opacity: 0.9;
+}
+
+#logo:hover .barra{
+    opacity: 0.9;
+    width: 80% !important;
+}
+
+.info-contato a{
+    color: #EE1D23 !important;
+}
+
+.info-contato a:hover{
+    opacity: 0.9;
+}
+
+.titulo-formulario{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+.input{
+    display: block;
+    width: 100% !important;
+    height: 25px;
+    border-bottom-style: solid;
+    border-color: #CCCCCC;
+    border-width: 0px 0px 1px 0px;
+    transition:width 0.4s ease-in-out;
+    font-size: 1.4rem;
+}
+.input:focus{
+    width: 95% !important;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
+
+.text-area{
+    display: block;
+    width: 100% !important;
+    border-bottom-style: solid;
+    border-color: #CCCCCC;
+    border-width: 0px 1px 1px 0px;
+    transition:width 0.4s ease-in-out;
+    font-size: 1.4rem;
+}
+.text-area:focus{
+    width: 100% !important;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
+
+.btn-submit-contato{
+    background-color: #EE1D23;
+    color: #fff;
+    border: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    transition: 0.3s;
+}
+
+.btn-submit-contato:hover{
+    opacity: 0.9;
+    padding-left: 13%;
+    padding-right: 13%;
+    transition: 0.3s;
+}

@@ -1,0 +1,177 @@
+
+a{
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+}
+/*abertura*/
+.abertura{
+    background-image: url("../../img/slide-2.jpg");
+    width: 100%;
+    min-height: 490px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.abertura-conteudo{
+    background-color: rgba(0,0,0,0.5);
+}
+.abertura-conteudo h1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    transition: 0.3s;
+}
+
+.abertura-conteudo h4{
+    text-shadow: 1px 1px 1px #000;
+}
+
+.h3-abertura{
+    text-shadow: 1px 1px 1px #000;
+    font-style: oblique;
+}
+
+.btn-buscar{
+    background-color: #EE1D23;
+    border: none;
+    color: #fff;
+    padding-left: 12%;
+    padding-right: 12%;
+    transition: 0.3s;
+}
+.btn-buscar:hover{
+    opacity: 0.9;
+    transition: 0.3s;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+/*Anúncios*/
+.carrosel-anuncio{
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.6);
+}
+.carrosel-anuncio a{
+    transition: 0.2s;
+}
+.carrosel-anuncio a:hover{
+    transform: scale(1.01,1.01);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+    transition: 0.2s;
+}
+
+#prev a{
+    border-radius: 10rem;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+}
+#next a{
+    border-radius: 10rem;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+}
+
+/*oferta*/
+.oferta{
+    background-color:#1A7141 ;
+    color: #fff;
+}
+.oferta p{
+    font-variant: small-caps;
+    font-size:1.6rem;
+}
+.btn-oferta{
+    background-color: #fff;
+    color: #1A7141;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    transition: 0.3s;
+}
+
+.btn-oferta:hover{
+    color: #000;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    padding-right: 31%;
+    padding-left: 31%;
+    transition: 0.3s;
+}
+
+.barra{
+     width: 70% !important;
+     height: 1px !important;
+     background-color: #fff;
+     border-radius: 0.25rem;
+     transition: 0.5s;
+ }
+
+.oferta:hover .barra{
+    width: 80% !important;
+}
+
+/*apoiadores*/
+
+.img-parceiros img{
+    width: 175px;
+    height: 105px;
+    transition: 0.2s;
+}
+
+.img-parceiros:hover{
+    transform: scale(1.01,1.01);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+    transition: 0.2s;
+}
+
+#prev-patrocinadores a{
+    border-radius: 10rem;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+}
+#next-patrocinadores a{
+    border-radius: 10rem;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+}
+
+
+@media (max-width: 576px) {
+    .abertura{
+        background-image: url("../../img/slide-2-mobile.png");
+        width: 100%;
+        min-height: 490px;
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .abertura-conteudo h1{
+        font-size: 2.8rem;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    .btn-oferta{
+        background-color: #fff;
+        color: #1A7141;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+        padding-right: 20%;
+        padding-left: 20%;
+        transition: 0.3s;
+    }
+
+    .btn-oferta:hover{
+        color: #000;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+        padding-right: 26%;
+        padding-left: 26%;
+        transition: 0.3s;
+    }
+}

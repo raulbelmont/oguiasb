@@ -1,0 +1,42 @@
+a:hover{
+    text-decoration: none !important;
+}
+
+.titulo{
+    background-image: url("../../img/fundo-categoria.png");
+    background-attachment: fixed;
+}
+
+.titulo-categoria a{
+    color: #EE1D23;
+}
+
+.titulo-categoria a:hover{
+    color: #FF5039;
+}
+
+.empresa-servico{
+    color: #000;
+}
+
+.empresa-servico:hover{
+    color: #323232;
+}
+
+.barra{
+    width: 90% !important;
+    height: 1px !important;
+    background-color: #000;
+    border-radius: 0.25rem;
+    transition: 0.5s;
+}
+
+.card-itens{
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .card-itens{
+        display: block;
+    }
+}

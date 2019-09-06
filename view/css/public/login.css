@@ -1,0 +1,123 @@
+a{
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+#card-login{
+    border: 2px solid #EE1D23;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.6);
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+#card-login:hover{
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+    transition: 0.3s;
+}
+
+#card-login:hover .barra-logo{
+    width: 50% !important;
+    transition: 0.3s;
+}
+
+#card-login:focus .barra-logo{
+    width: 50% !important;
+    transition: 0.3s;
+}
+
+.h5-erro{
+    color: #EE1D23;
+}
+
+.logo p{
+    color: #EE1D23;
+}
+
+.barra-logo{
+    width: 70% !important;
+    height: 1px !important;
+    background-color: #EE1D23;
+    border-radius: 0.25rem;
+    transition: 0.5s;
+}
+
+.input-login{
+    display: block;
+    width: 100% !important;
+    height: 25px;
+    border-bottom-style: solid;
+    border-color: #CCCCCC;
+    border-width: 0px 0px 1px 0px;
+    transition:width 0.4s ease-in-out;
+    font-size: 1.4rem;
+}
+.input-login:focus{
+    width: 95% !important;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
+.btn-logar{
+    background-color: #EE1D23;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    transition: 0.3s;
+}
+
+.btn-logar:hover{
+    opacity: 0.9;
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+#titulo-modal-rec-senha{
+    color: #EE1D23;
+}
+
+#link-recuperar-senha{
+    color: #EE1D23;
+    text-decoration: underline;
+}
+
+/*Modal de recuperar senha*/
+#alerta-erro-email{
+
+    color: #EE1D23 !important;
+    border: 1px solid #EE1D23;
+    display: none;
+
+}
+
+.btn-recuperar-senha{
+    color: #fff;
+    background-color: #EE1D23;
+    border: none;
+    border-radius: 0.25rem;
+    transition: 0.3s;
+}
+
+.btn-recuperar-senha:hover{
+    opacity: 0.9;
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+.verfica-email{
+    color: #EE1D23;
+}
+
+.spin-recuperar-senha{
+    display: none;
+}
+
+.sucesso-recuperar-senha{
+    display: none;
+}
+
+.fracasso-recuperar-senha{
+    display: none;
+}
